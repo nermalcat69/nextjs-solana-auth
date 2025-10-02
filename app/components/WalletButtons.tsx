@@ -85,7 +85,7 @@ export default function WalletButtons() {
   if (!connected && !connecting) {
     return (
       <div className="flex gap-4 items-center flex-col sm:flex-row">
-        <div className="grid grid-cols-3 gap-2 space-y-2">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-2 space-y-2">
           {wallets.map((wallet) => (
             <button
               key={wallet.adapter.name}

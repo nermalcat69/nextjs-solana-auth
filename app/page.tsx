@@ -5,7 +5,10 @@ import AccountInfo from "./components/AccountInfo";
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center w-full">
+      <main className="flex flex-col gap-[32px] row-start-2 ">
+        <h1 className="text-4xl pl-3.5 font-medium">
+          Next.js Solana Auth Starter
+        </h1>
         <WalletButtons />
         <AccountInfo />
       </main>
